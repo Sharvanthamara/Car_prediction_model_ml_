@@ -7,7 +7,7 @@ cars_df = pd.read_csv("./cars24-car-price.csv")
 
 st.title("Car Resale Price Prediction")
 st.dataframe(cars_df.head())
-
+# using Picle package loading work and preprocessing
 with open('car_pred_model', 'rb') as f:
     model = pickle.load(f)
 
