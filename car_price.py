@@ -57,9 +57,4 @@ if st.button("Get Price"):
 
 
 
-# scaler = StandardScaler()
-# scaler.fit_transform(X)
 
-# pickle.dump(scaler)
-
-# scaler.transform()
